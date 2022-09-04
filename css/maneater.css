@@ -1,0 +1,171 @@
+ 
+        html {
+            background-image: url("../photos/bg.jpg");
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        footer {
+            position: absolute;
+            width: 100%;
+            color: white;
+            font-weight: bolder;
+            z-index: 1;
+        }
+
+        header {
+            position: fixed;
+            z-index: 1;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.765);
+        }
+
+        header img {
+            position: absolute;
+            height: 70%;
+            z-index: 1;
+            margin-top: 14px;
+            margin-left: 14px;
+        }
+
+        header h2 {
+            z-index: 1;
+        }
+
+        footer {
+            position: relative;
+            height: 15vh;
+
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.712);
+            color: white;
+            bottom: 0;
+        }
+
+        footer h2 {
+            z-index: 1;
+            position: absolute;
+            color: rgba(255, 255, 255, 0.432);
+            left: 1%;
+            top: 18%;
+        }
+
+        footer p {
+            z-index: 1;
+            position: absolute;
+            left: 2.5%;
+            color: rgba(255, 255, 255, 0.432);
+            top: 47%;
+        }
+
+        .nav {
+            z-index: 1;
+            position: relative;
+            width: 100%;
+        }
+
+        .nav a {
+            z-index: 1;
+            border-style: dashed;
+            border-top: rgb(228, 228, 228);
+            border-left: #000;
+            border-right: #000;
+            border-bottom-color: red;
+            position: relative;
+            font-size: larger;
+            left: 66%;
+            top: 37px;
+            color: white;
+            font-style: italic;
+            margin-right: 20px;
+            text-decoration: none;
+
+        }
+
+        footer a {
+            position: relative;
+            font-size: larger;
+            left: 13%;
+            top: 38.5px;
+            color: white;
+            font-style: italic;
+            margin-right: 20px;
+            text-decoration: none;
+            border-style: dotted;
+            border-top: rgb(228, 228, 228);
+            border-left: #000;
+            border-right: #000;
+            border-bottom-color: red;
+        }
+
+        .h2a {
+            position: absolute;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: x-large;
+            height: 70%;
+            z-index: 1;
+            margin-top: 1.3%;
+            margin-left: 6.5%;
+            color: white;
+
+        }
+
+        .h2b {
+            font-style: italic;
+            font-weight: bolder;
+            font-size: x-large;
+            position: absolute;
+            height: 70%;
+            z-index: 1;
+            margin-top: 3%;
+            margin-left: 6.5%;
+            color: white;
+        }
+
+    main p {
+        position: absolute;
+        font-size: x-large;
+        width: 80%;
+        left: 9%;
+        padding: 1%;
+        color: white;
+        background-color: rgba(255, 0, 0, 0.468);
+    }
+
+    main h2 {
+        position: absolute;
+        left: 40%;
+        width: 20%;
+        text-align: center;
+        padding: 0.9%;
+        top: 31%;
+        color: rgba(255, 255, 255, 0.900);
+        background-color: rgba(255, 0, 0, 0.468);
+    }
+    .a{
+        font-size: x-large;
+        padding: 1%;
+        position: absolute;
+        color: white;
+        top: 45%;
+        background-color: rgba(255, 0, 0, 0.543);
+        left: 42%;
+        text-decoration: none;
+    }
+    .b{
+        font-size: x-large;
+        padding: 1%;
+        top: 45%;
+        position: absolute;
+        color: white;
+        background-color: rgba(255, 0, 0, 0.521);
+        left: 52%;
+        text-decoration: none;
+
+    }
